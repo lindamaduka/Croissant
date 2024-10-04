@@ -1,0 +1,52 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f0ff; /* Light purple background */
+  color: #333; /* Dark text for better readability */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add padding around the body */
+  text-align: center; /* Center the content */
+}
+
+/* Styling for headings */
+h1 {
+  color: #4b0082; /* Dark purple for headings */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Styling for links */
+a {
+  display: inline-block;
+  margin: 10px 15px; /* Adds space between the links */
+  padding: 10px 20px;
+  background-color: #4b0082; /* Dark purple background */
+  color: #fff; /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+a:hover {
+  background-color: #7d40e7; /* Lighter purple on hover */
+}
+
+/* Style for the croissant image */
+img {
+  display: block;
+  width: 150px; /* Set the image width to 150px to make it small */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center the image horizontally */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Light shadow */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  color: #fff; /* White text for footer */
+}
+
